@@ -1,5 +1,5 @@
-name: bluegreendemo
-replicas: 2
+name: bluegreendemonew
+replicas: 1
 
 image: <+artifact.images>
 dockercfg: <+artifact.imagePullSecrets>
