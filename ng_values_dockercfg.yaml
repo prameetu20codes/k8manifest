@@ -1,8 +1,8 @@
 name: bluegreendemonew
 replicas: 1
 
-image: <+artifact.images>
-dockercfg: <+artifact.imagePullSecrets>
+image: ngninx
+dockercfg: ngninx
 
 createNamespace: true
 namespace: <+infra.namespace>
