@@ -2,7 +2,7 @@ name: bluegreendemonew
 replicas: 1
 
 image: ngninx
-dockercfg: ngninx
+dockercfg: true
 
 createNamespace: true
 namespace: <+infra.namespace>
